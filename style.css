@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Noto+Sans:ital,wght@0,600;1,600&family=Poppins:wght@500&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url("Assets/Images/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 90vh;
+    position: relative;
+}
+.main .box{
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 90vh;
+    width:100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+    height: 100px;
+}
+nav img{
+    color: rgb(244, 5, 5);
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: "Noto Sans", sans-serif;
+    height: 85.6%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    padding: 0 25px;
+    
+}
+.hero> :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+.hero>:nth-child(2){
+    font-size: 24px;
+    font-weight: 400px;
+    text-align: center;
+}
+.hero>:nth-child(3){
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(60, 59, 59);
+}
+.btn{
+    padding: 1px 10px;
+    font-weight: 600;
+    background-color: white;
+    
+}
+.btn-red{
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgb(217, 10, 10);
+    color: white;
+    padding: 10px 28px;
+    border-radius: 5px;
+    font-size: 25px;
+    border-style: hidden;
+    cursor:pointer;
+    
+}
+.btn-red:hover{
+    background-color: rgb(183, 1, 1);
+    transition: all 0.3s ease-in-out;
+}
+.btn-red-sm{
+    background-color: rgb(255, 39, 39);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 18px;
+    margin-left: 15px;
+    border-style: hidden;
+    cursor:pointer;
+}
+.btn-red-sm:hover{
+    background-color: rgb(183, 1, 1);
+    transition: all 0.3s ease-in-out;
+}
+.btn-lang{
+    background-color: rgba(23,23,23,0.8);
+    color: white;
+    border: 1px solid rgba(168, 168, 168, 0.719);
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.main input{
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgba(23,23,23,0.8);
+    border: 0.1px solid rgba(219, 219, 219, 0.448);
+    color: white;
+    padding-top: 18px;
+    justify-content: center;
+    padding: 17px 101px 10px 14px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    max-width: 80vw;
+    max-height: 1000px;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    top: 93px;
+    right: 47px;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 20px;
+}
+section.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    max-width: 80vw;
+}
+.rect{
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height:80px;
+    border: 1px solid white;
+    border-radius: 10px;
+    z-index: 10;
+    position: absolute;
+    background-color: black;
+    top: 195%;
+    left: 17%;
+}
+.rect .poster img{
+    padding: 5px 15px;
+    width: 45px;
+    margin-right: 35px;
+}
+.tex :nth-child(1){
+    font-weight: 600;
+    font-size: 15px;
+}
+.tex :nth-child(2){
+    font-weight:100;
+    font-size: 10px;
+    color: rgb(1, 86, 234);
+}
+.rect .down img{
+    margin-left: 60px;
+    width: 35px;
+    padding-top: 10px;
+}
+
+section.second :nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+section.second .cont :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.second .cont :nth-child(2){
+    font-size: 20px;
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 10vw;
+    margin-bottom: 80px;
+    color: white;
+    max-width: 80vw;
+    max-height: 1000px;
+}
+section.third > div{
+    display: flex;
+    flex-direction: column;
+}
+section.third > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.third > div :nth-child(2){
+    font-size: 20px;
+}
+.img4{
+    position: relative;
+}
+.img4 img{
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+}
+.img4 video{
+    position: absolute;
+    top: 45px;
+    right: 120px;
+    max-width: 63%;
+}
+
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 10vw;
+    margin-bottom: 80px;
+    color: white;
+    max-width: 80vw;
+    max-height: 1000px;
+}
+section.fourth > div{
+    display: flex;
+    flex-direction: column;
+}
+section.fourth > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.fourth > div :nth-child(2){
+    font-size: 20px;
+}
+.faqs{
+    display: flex;   
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.faqs h1{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+.faqbox{
+    transition: all 0.3s ease-in-out;
+    width: 1275px;
+    height: 38px;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+}
+.faqbox:hover{
+    background-color: rgb(77, 77, 77);
+}
+.faqbox svg{
+    color: white;
+}
+.faqbox span{
+    font-size: 23px;
+
+}
+.hero2{
+    margin-top: 40px;
+    font-family: "Noto Sans", sans-serif;
+    height: 85.6%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    padding: 0 25px;
+    margin-bottom: 75px;
+    
+}
+.hero2> :first-child{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+.hero2> :nth-child(2) :first-child{
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgba(23,23,23,0.8);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100px;
+    padding: 19px 100px 10px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 0.1px solid rgba(219, 219, 219, 0.448);
+    color: white;
+}
+footer{
+    color: rgba(255, 255, 255, 0.591);
+    margin: 50px 0px 50px 100px;
+    font-size: 14px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 93vw;
+    margin: auto;
+}
+.ques{
+    margin-bottom: 40px;
+}
+.footeritems{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.591);
+}
+.bottom-button{
+    margin-top: 20px;
+}
+.Name{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+
+
